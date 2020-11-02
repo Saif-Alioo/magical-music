@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+header h1{
+    margin: 50px,0px,30px,0px;
+    text-align: center;
+    font-size: 40px;
+}
+header p{
+    font-size: 20px;
+}
+.pads{
+    margin-bottom: 0px;
+    background: aliceblue;
+    width: 100%;
+    display: flex;
+}
+.pads > button{
+     flex: 1;
+    
+}
+span{
+    color: White;
+    font-weight: 600;
+}
+
+.pad1{
+    background: black;
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+    
+}
+.pad2{
+     background: blue;
+     height: 100px;
+    width: 200px;
+    border-radius: 30%;
+}
+.pad3
+{
+    background: blueviolet;
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+
+}
+.pad4{
+    background: chartreuse;
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+}
+.pad5{
+    background: rgb(15, 26, 4);
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+
+}
+.pad6{
+    background: cornflowerblue;
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+}
+#photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.visual > div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom:0%;
+    z-index: -1;
+
+}
+.img1{
+    height: 100px;
+    width: 200px;
+}
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
